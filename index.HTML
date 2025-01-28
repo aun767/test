@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple SPA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="logo1.jpg" alt="Company Logo">
+                <h1>Sewa Mobil</h1>
+            </div>
+            <button class="menu-toggle"></button>
+            <nav class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#" data-section="home">Home</a></li>
+                    <li><a href="#" data-section="about">About</a></li>
+                    <li><a href="#" data-section="services">Services</a></li>
+                    <li><a href="#" data-section="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section active">
+            <h2>Home</h2>
+            <p>Welcome to our homepage!</p>
+        </section>
+        <section id="about" class="section">
+            <h2>Tentang Kami</h2>
+            <div class="about-content">
+                <ol>
+                    <li><strong>Layanan Kami</strong>
+                    <ul>
+                        <li><strong>Sewa Mobil dengan Supir –</strong>Menyediakan armada mobil terbaru dengan sopir berpengalaman untuk memastikan kenyamanan perjalanan Anda.</li>
+                    </ul></li>
+                </ol>
+            </div>
+            <p>Learn more about our company.</p>
+        </section>
+        <section id="services" class="section">
+            <h2>Syarat & Ketentuan</h2>
+            <div class="services-content">
+                <ol>
+                    <li><strong>Pemesanan dan Pembayaran:</strong>
+                        <ul>
+                            <li>Pemesanan harus dilakukan minimal 24 jam sebelum waktu yang diinginkan.</li>
+                            <li>Pembayaran harus dilakukan sebelum atau pada saat pengambilan kendaraan.</li>
+                            <li>Pembatalan pemesanan harus dilakukan minimal 12 jam sebelum waktu penyewaan untuk mendapatkan pengembalian uang penuh.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Ketersediaan Kendaraan:</strong>
+                        <ul>
+                            <li>Pemesanan tergantung ketersediaan kendaraan pada saat penjemputan.</li>
+                            <li>Kami berhak mengganti kendaraan dengan jenis yang setara jika diperlukan, tanpa pemberitahuan sebelumnya.</li>
+                        </ul>
+                    </li>
+                    <!-- Continue other points in the same format -->
+                </ol>
+                <p>Dengan melakukan pemesanan, Anda dianggap telah membaca, memahami, dan menyetujui syarat dan ketentuan di atas.</p>
+            </div>
+            <p>Ada yang bisa kami bantu?? hubungi kami di menu kontak.</p>
+        </section>
+        <section id="contact" class="section">
+            <h2>Hubungi Kami</h2>
+            <p>Kami di sini untuk membantu! Jika Anda memiliki pertanyaan atau ingin menjadwalkan pertemuan, silakan hubungi kami melalui informasi kontak di bawah ini.</p>
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>whatshap</h3>
+                    <p><a href="https://wa.me/081907279015" target="_blank">+62 819 0727 9015</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>gmail</h3>
+                    <p><a href="wildan:waunillah@gmail.com" target=>waunillah@gmail.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Jam Oprasional</h3>
+                    <p>senin-sabtu : 08.00 - 16.00</p>
+                </div>
+                <div class="contact-item alamat toko">
+                    <h3>lokasi</h3>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Simple SPA. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
